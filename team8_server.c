@@ -133,14 +133,14 @@ void handle_client_message(connection_info clients[], int sender)
           return;
         }
       }
-      puts("Server dected one JOIN");
+      puts("Server detected one JOIN");
       strcpy(clients[sender].username, tempname);
       printf("User connected: %s\n", clients[sender].username);
           //send_connect_message(clients, sender);
       break;
 
       case SEND:
-        puts("Server dected one SEND");
+        puts("Server detected one SEND");
         char msg_content[256];
         getMessageContent(msg, msg_content);
         send_public_message(clients, sender, msg_content);  //TODO

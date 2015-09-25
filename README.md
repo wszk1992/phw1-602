@@ -10,8 +10,8 @@ to clean compiled and .o files, type $ make clean
 
 to run (just for reference):
 
-$ ./team8_server \<ip\> \<port\> \<max_client\>
+$ ./team8_server <ip> <port> <max_client>
 
-$ ./team8_client \<username\> \<ip\> \<port\>
+$ ./team8_client <username> <ip> <port>
 
 

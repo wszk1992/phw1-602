@@ -99,7 +99,7 @@ void connect_to_server(connection_info *connection, char* user_input_name ,char 
 
 
   puts("Connected to server.");
-  puts("Type /help for usage.");
+  puts("Type your messages.");
 }
 
 
